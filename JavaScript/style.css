@@ -1,0 +1,86 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: skyblue;
+  border-radius: 15px;
+}
+
+#logo {
+  height: 35px;
+  width: auto;
+  margin: 0;
+}
+
+button {
+  background-color: tomato;
+  color: turquoise;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 10px;
+  appearance: none;
+  cursor: pointer;
+}
+
+main {
+  max-width: 700px;
+  margin: 75px auto;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+a {
+  color: rgb(118, 227, 235);
+}
+
+img {
+  width: 100%;
+  max-width: 1300px;
+  margin: 25px auto;
+  height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+  background-color: skyblue;
+  border-radius: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+li a {
+  color: black;
+}
